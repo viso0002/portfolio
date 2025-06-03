@@ -12,32 +12,36 @@ ul,
 }
 
 body {
-  font-family: var(--default-font);
-  color: var(--primary-font-color);
-  background-color: var(--primary-bg-color);
+  background-color: #292929;
 }
 
-header,
-footer {
-  background-color: var(--header-background-color);
-  color: var(--secondary-font-color);
-  height: min-content;
+@font-face {
+    font-family: tan-aegean;
+    src: url(../fonts/TAN\ -\ AEGEAN\ Regular.ttf);
 }
 
-/* farver */
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background: repeating-linear-gradient(
-        90deg,
-        #c2794b,
-        #c2794b 19px,
-        #c69779 19px,
-        #c69779 20px
-    )
-     /* #6a9268,
-        #6a9268 19px,
-        #97c497 19px,
-        #97c497 20px */
+@font-face {
+    font-family: hero-regular;
+    src: url(../fonts/HeroLight-Regular.otf);
+}
+
+@font-face {
+    font-family: hero-bold;
+    src: url(../fonts/HeroLight-Bold.otf);
+}
+
+h1, h2 {
+  font-family: tan-aegean;
+}
+
+h3 {
+  font-family: hero-bold;
+}
+
+h4, p, ul, a {
+  font-family: hero-regular;
+}
+
+a {
+  text-decoration: none;
 }
