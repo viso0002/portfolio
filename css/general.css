@@ -1,0 +1,43 @@
+html,
+body,
+header,
+footer,
+main,
+nav,
+ul,
+#main-disclamer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--default-font);
+  color: var(--primary-font-color);
+  background-color: var(--primary-bg-color);
+}
+
+header,
+footer {
+  background-color: var(--header-background-color);
+  color: var(--secondary-font-color);
+  height: min-content;
+}
+
+/* farver */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: repeating-linear-gradient(
+        90deg,
+        #c2794b,
+        #c2794b 19px,
+        #c69779 19px,
+        #c69779 20px
+    )
+     /* #6a9268,
+        #6a9268 19px,
+        #97c497 19px,
+        #97c497 20px */
+}
