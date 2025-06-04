@@ -1,0 +1,43 @@
+.p_3, h1, h2, h3 {
+    color: #292929;
+}
+
+.cta-button-pink_3 {
+    display: inline-block;
+  margin-top: 15px;
+  padding: 15px 30px;
+  background-color: #dfaabe;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+
+.tema_3_main {
+    background-color: #d9d9d9;
+    border-radius: 30px;
+} 
+
+.intro-lottie_3 {
+    border: 10px solid #fff;
+    width: 100%;
+}
+
+.grid_1-1 {
+    border-bottom: 2px solid #dfaabe;
+}
+
+img {
+    border: 10px solid #fff;
+    width: 100%;
+}
+
+/* web-version */
+@media (min-width: 800px) {
+    .grid_1-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
