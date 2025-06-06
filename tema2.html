@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <title>Tema 3</title>
+    <title>Tema 2</title>
+    <link rel="icon" type="image/x-icon" href="img/fav_portfolio.png" sizes="96x96" />
   </head>
   <body>
     <header>
-      <nav>
+      <div class="burger" id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <nav id="nav-menu">
         <ul>
           <li><a href="forside.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
@@ -23,7 +30,88 @@
         <img src="img/LOGO_portfolio.png" alt="Victoria Amalie logo" />
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="tema_2_main">
+        <section class="grid_1-1_intro">
+          <div class="intro-lottie_3">
+            <script
+              src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+              type="module"
+            ></script>
+            <dotlottie-player
+              src="https://lottie.host/7b730c17-0460-4b0c-a51b-732b2d180a39/5Se6QQrFyd.lottie"
+              background="transparent"
+              speed="1"
+              style="width: auto; height: auto"
+              autoplay
+            ></dotlottie-player>
+          </div>
+          <div class="intro-text_2">
+            <h1 class="h1_2">T3// <br />GRUNDLÆGGENDE WEB</h1>
+            <p class="p_2">
+              I dette tema har vi lært at arbejde med de mest grundlæggende værktøjer. Vi har lært at opsætte simple
+              websider med HTML og CSS, og vi er blevet introduceret til Figma som et værktøj til opsætning af tekst og
+              billeder.
+            </p>
+            <h3 class="h3_2">STUDIESTARTSPRØVE</h3>
+            <p class="p_2">
+              I studiestartsprøven skulle vi først lave en mobilversion af et site og derefter website. Sitet blev lavet
+              ud fra eksisterende indhold samt wireframes. Formålet ved opgaven var, at lære html og css kodning fra
+              bunden og aflæse layoutdiagrammer.
+            </p>
+            <p class="p_2">Se min side her:</p>
+            <a href="matchaside" class="cta-button-pink_3">STUDIESTARTSPRØVE</a>
+          </div>
+        </section>
+        <section class="grid_1-1">
+          <div>
+            <h3 class="h3_2">HTML og CSS</h3>
+            <p class="p_2">
+              I starten af dette tema lærte vi at opsætte HTML-kode fra bunden i VS Code. For mit vedkommende var det
+              første gang, jeg arbejdede med kodning, men jeg synes, det gik godt, og jeg fik hurtigt en forståelse for
+              struktur og opbygning. <br />
+              Vi blev derefter introduceret for CSS kodning. CSS bruges til at style HTML-kodningen. Vi arbejdede særigt
+              med grid, som står for opsætningen af sitet. <br />
+              Derudover lærte vi at gøre sitet responsivt ved hjælp af media queries, så det tilpasses forskellige
+              skærmstørrelser og giver en bedre brugeroplevelse.
+            </p>
+          </div>
+          <div>
+            <img class="img_tema" src="img/stilart.png" />
+          </div>
+        </section>
+        <section class="grid1_1_rev">
+          <div>
+            <h3 class="h3_2">Wireframes</h3>
+            <p class="p_2">
+              Vi arbejdede ud fra et udleveret wireframe, som vi skulle analysere og omsætte til kode. Opgaven gav mig
+              en bedre forståelse for HTML-struktur og opbygning, særligt i forhold til brugen af sektioner og
+              grid-navne.
+            </p>
+          </div>
+          <img class="img_tema" src="img/moodboard.png" />
+        </section>
+        <section class="grid_1-1">
+          <div>
+            <h3 class="h3_2">Figma</h3>
+            <p class="p_2">
+              Vi blev introduceret til designprogrammet Figma og arbejdede med forskellige øvelser, hvor vi blandt andet
+              analyserede eksisterende websites. Siden da har jeg brugt Figma løbende til at dokumentere min
+              designproces i de forskellige emner.
+            </p>
+          </div>
+          <div>
+            <img class="img_tema" src="img/wireframe.png" />
+          </div>
+        </section>
+
+        <section class="back_btn">
+          <h3 class="h3_2">SE MINE ANDRE PROJEKTER:</h3>
+          <a href="projects.html" class="cta-button-pink_3">PROJEKTER</a>
+        </section>
+      </section>
+    </main>
     <footer></footer>
+    <script src="js/menu.js"></script>
   </body>
 </html>

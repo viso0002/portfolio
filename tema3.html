@@ -9,10 +9,17 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <title>Tema 3</title>
+    <link rel="icon" type="image/x-icon" href="img/fav_portfolio.png" sizes="96x96" />
   </head>
   <body>
     <header>
-      <nav>
+      <div class="burger" id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <nav id="nav-menu">
         <ul>
           <li><a href="forside.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
@@ -25,22 +32,7 @@
     </header>
     <main>
       <section class="tema_3_main">
-        <section class="grid_1-1">
-          <div class="intro-text_3">
-            <h1 class="h1_3">T3// <br />GRUNDLÆGGENDE UX/UI</h1>
-            <p class="p_3">
-              I dette tema skulle vi udvikle vores første hjemmeside med et selvvalgt emne. Vi har særligt haft fokus på
-              designprocessen og hvilke metoder man kan bruge undervejs.
-            </p>
-            <h3 class="h3_3">03.01.01 EMNESITE</h3>
-            <p class="p_3">
-              Emnesite opgaven gik ud på at designe og udvikle et personligt website om et selvvalgt emne. Jeg valgte
-              emnet Matcha i København. Formålet var at gennemgå hele designprocessen, fra idé og research til digital
-              prototype, kodning og præsentation.
-            </p>
-            <p class="p_3">Se min side her:</p>
-            <a href="matchaside" class="cta-button-pink_3">EMNESITE</a>
-          </div>
+        <section class="grid_1-1_intro">
           <div class="intro-lottie_3">
             <script
               src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
@@ -54,28 +46,124 @@
               autoplay
             ></dotlottie-player>
           </div>
+          <div class="intro-text_3">
+            <h1 class="h1_3">T3// <br />GRUNDLÆGGENDE UX/UI</h1>
+            <p class="p_3">
+              I dette tema skulle vi udvikle vores første hjemmeside med et selvvalgt emne. Vi har særligt haft fokus på
+              designprocessen og hvilke metoder man kan bruge undervejs.
+            </p>
+            <h3 class="h3_3">03.01.01 EMNESITE</h3>
+            <p class="p_3">
+              Emnesite opgaven gik ud på at designe og udvikle et personligt website om et selvvalgt emne. Jeg valgte
+              emnet Matcha i København.Formålet var at gennemgå hele designprocessen, fra idé og research til digital
+              prototype, kodning og præsentation.
+            </p>
+            <p class="p_3">Se min side her:</p>
+            <a href="matchaside" class="cta-button-pink_3">EMNESITE</a>
+          </div>
         </section>
         <section class="grid_1-1">
           <div>
             <h3 class="h3_3">Stilart og designprincipper</h3>
             <p class="p_3">
               Jeg har valgt at lave mit emnesite med fokus på matcha i København. Designet er udviklet med udgangspunkt
-              i modernistisk stil, hvor enkelhed og funktionalitet er i centrum. Et modernistisk website kendetegnes
-              ved, at alt overflødigt skæres fra, og der arbejdes med rene linjer og en klar struktur. Mit layout er
-              opbygget med luftige sektioner, der giver plads til indholdet og skaber ro i udtrykket. Jeg har desuden
-              anvendt en neutral og begrænset farvepalette samt valgt en enkel og læsbar typografi for at understøtte
-              det minimalistiske udtryk. I mit design har jeg arbejdet med centrale designprincipper som visuelt
-              hierarki, balance, kontrast og justering for at skabe en overskuelig brugeroplevelse. Derudover har jeg
-              anvendt konsistens og nærhed for at sikre, at indholdet er nemt at navigere i. Principperne understøtter
-              den modernistiske stil og bidrager til et brugervenligt udtryk.
+              i modernistisk stil, hvor der er særligt fokus på enkelthed. Et modernistisk website kendetegnes ved, at
+              alt overflødigt skæres fra, og der arbejdes med rene linjer og en klar struktur. Mit layout er opbygget
+              med luftige sektioner, der giver plads til indholdet og skaber ro i udtrykket. Jeg har desuden anvendt en
+              neutral og begrænset farvepalette samt valgt en enkel og læsbar typografi for at understøtte det
+              minimalistiske udtryk.<br />
+              I mit design har jeg arbejdet med centrale designprincipper som visuelt hierarki, balance, kontrast og
+              justering for at skabe en overskuelig brugeroplevelse. Derudover har jeg anvendt konsistens og nærhed for
+              at sikre, at indholdet er nemt at navigere i. Principperne understøtter den modernistiske stil og bidrager
+              til et brugervenligt udtryk.
             </p>
           </div>
           <div>
-            <img src="img/stilart.png" />
+            <img class="img_tema" src="img/stilart.png" />
           </div>
+        </section>
+        <section class="grid1_1_rev">
+          <div>
+            <h3 class="h3_3">Moodboard og styletile</h3>
+            <p class="p_3">
+              I min research- og idéudviklingsfase udarbejdede jeg forskellige moodboards med fokus på målgruppen,
+              temaet og de centrale værdiord. På baggrund af dette udviklede jeg en styletile, som jeg testede med en
+              likert-skala test. Testen gav mig brugerfeedback på designets udtryk, hvilket gjorde det muligt for mig at
+              justere og forbedre mit endelige styletile.
+              <br />For at understøtte den modernistiske stil, valgte jeg nogle læsbare fonte, uden for mange detaljer.
+              Farvepaletten består af jordnære og rolige nuancer, der både er behagelige for øjet og understøtter
+              temaet.
+            </p>
+          </div>
+          <img class="img_tema" src="img/moodboard.png" />
+        </section>
+        <section class="grid_1-1">
+          <div>
+            <h3 class="h3_3">Wireframes</h3>
+            <p class="p_3">
+              Under min designproces udviklede jeg både lo-fi og hi-fi wireframes. Lo-fi wireframes hjalp mig med at
+              sætte en struktur og layout for mit site. Hi-fi wireframes hjalp mig med at finde det visuelle udtryk.<br />
+              Derudover arbejde vi med lightning demos. Dette hjalp mig med at få flere idéer til, hvordan de
+              forskellige elementer på mit design skulle visualiseres og gennemføres. <br />
+              Inden kodningen af mit projekt lavede jeg et layout-diagram til hver side. På denne måde kunne jeg
+              strukturerer mit html dokument, hvilket gjorde kodningen meget lettere.
+            </p>
+          </div>
+          <div>
+            <img class="img_tema" src="img/wireframe.png" />
+          </div>
+        </section>
+        <section class="grid1_1_rev">
+          <div>
+            <h3 class="h3_3">Gestaltlove</h3>
+            <p class="p_3">
+              I min research- og idéudviklingsfase udarbejdede jeg forskellige moodboards med fokus på målgruppen,
+              temaet og de centrale værdiord. På baggrund af dette udviklede jeg en styletile, som jeg testede med en
+              likert-skala test. Testen gav mig brugerfeedback på designets udtryk, hvilket gjorde det muligt for mig at
+              justere og forbedre mit endelige styletile.
+              <br />For at understøtte den modernistiske stil, valgte jeg nogle læsbare fonte, uden for mange detaljer.
+              Farvepaletten består af jordnære og rolige nuancer, der både er behagelige for øjet og understøtter
+              temaet.
+            </p>
+          </div>
+          <img class="img_tema" src="img/gestaltlove.png" />
+        </section>
+        <section class="grid_1-1">
+          <div>
+            <h3 class="h3_3">Prototype</h3>
+            <p class="p_3">
+              Ud fra vores wireframes og styletile udviklede vi en prototype i Figma. Prototypen er interaktiv og giver
+              dermed mulighed for at visulisere sitet inden det skal kodes, og vurdere hvilke sidste ændringer der skal
+              laves. Vi udviklede både en prototype til website samt mobilsite. <br />
+              Vi testede prototypen med en tænke-højt test, hvor en bruger tester sitet i prototype-formen og sætter ord
+              på deres tanker, oplevelser og overvejelser, mens vedkommende navigerer gennem designet. Med denne test
+              fik jeg indblik i, hvordan en rigtig bruger opfattede mit design samt hvor nem navigationen var.
+            </p>
+          </div>
+          <div>
+            <img class="img_tema" src="img/prototype.png" />
+          </div>
+        </section>
+        <section class="grid1_1_rev">
+          <div>
+            <h3 class="h3_3">Lighthouse-test</h3>
+            <p class="p_3">
+              I den afsluttende del af processen testede vi vores færdigkodede website med en Lighthouse-test, som
+              vurderer kvaliteten af sitet ud fra blandt andet performance og brugervenlighed. Formålet var at
+              identificere områder, der kunne forbedres for at optimere brugeroplevelsen. I mit tilfælde viste testen,
+              at mine billeder var for store, hvilket gjorde sitet langsomt at indlæse. Derfor valgte jeg at eksportere
+              billederne i en mindre filstørrelse for at forbedre hastigheden.
+            </p>
+          </div>
+          <img class="img_tema" src="img/lighthouse.png" />
+        </section>
+        <section class="back_btn">
+          <h3 class="h3_3">SE MINE ANDRE PROJEKTER:</h3>
+          <a href="projects.html" class="cta-button-pink_3">PROJEKTER</a>
         </section>
       </section>
     </main>
     <footer></footer>
+    <script src="js/menu.js"></script>
   </body>
 </html>
