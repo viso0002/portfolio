@@ -3,3 +3,30 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+.footer {
+  border-top: 2px solid #dbaabe;
+  padding-top: 20px
+}
+
+.find-mig {
+  align-items: center;
+}
+
+.find-mig p {
+  text-align: center;
+  color: #d9d9d9;
+
+}
+
+.socials img {
+  object-fit: cover;
+  width: 10%;
+}
+
+@media (min-width: 800px) {
+  .socials img {
+  object-fit: cover;
+  width: 5%;
+}
+}
