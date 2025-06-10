@@ -1,8 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 
 .p_3, .h1_3, .h2_3, .h3_3 {
     color: #292929;
@@ -23,6 +19,19 @@ display: inline-block;
 
 .cta-button-pink_3:hover {
   background-color: #ae8192;
+}
+
+ .p_2, .p_3, .p_4, .p_5, .p_6 {
+        font-size: 14px;
+    }
+
+.lottie_sandkasse {
+    margin-bottom: 100px;
+    border: 5px solid #fff;
+}
+
+.lottie_5 {
+    border: 5px solid #fff;
 }
 
 .tema_2_main {
@@ -57,10 +66,11 @@ display: inline-block;
 } 
 
 .intro-lottie_3 {
-    border: 10px solid #fff;
+    border: 5px solid #fff;
     min-width: 50%;
 
 }
+
 
 .grid_1-1_intro {
     border-bottom: 2px solid #dfaabe;
@@ -69,15 +79,30 @@ display: inline-block;
     padding: 0 20px; 
 }
 
+.grid_1-1_intro-5 {
+    border-bottom: 2px solid #dfaabe;
+    max-width: 1000px; 
+    margin: 0 auto;     
+    padding: 0 20px; 
+}
+
 .img_tema {
     object-fit: cover;
-    border: 10px solid #fff;
+    border: 5px solid #fff;
     width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .img_tema-border {
+    object-fit: cover; 
     border: none;
     width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .img_tema,
@@ -87,6 +112,7 @@ display: inline-block;
     max-width: 100%;
     height: auto;
   }
+  
 
 .tema_4_main {
     background-color: #dfaabe;
@@ -149,6 +175,22 @@ display: inline-block;
     color: #dfaabe;
 }
 
+p {
+    line-height: 2;
+}
+
+.web_photo {
+    object-fit: cover;
+    height:auto;
+    width: 100%;
+     max-width: 100%;
+}
+
+.intro-lottie_5 {
+    min-width: 50%;
+    margin-top: 120px;
+}
+
 /* web-version */
 @media (min-width: 800px) {
     
@@ -158,20 +200,39 @@ display: inline-block;
         gap: 40px;
         padding: 50px;
     }
+
+   .grid_1-1_intro-5 {
+        display: flex;
+        align-items:flex-start;
+        gap: 40px;
+        padding: 50px;
+    }
+
+    .p_2, .p_3, .p_4, .p_5, .p_6 {
+        font-size: 16px;
+    }
+   
     
     .grid_1-1 {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         gap: 40px;
         padding: 50px;
     }
     .grid1_1_rev {
         display: flex;
-        flex-direction: row-reverse; 
+        flex-direction: row-reverse;
         align-items: center;
         gap: 40px;
         padding: 50px;
     }
+
+    .grid1_1_rev div,
+.grid1_1_rev img {
+  flex: 1;
+  box-sizing: border-box;
+}
     
  .grid_1-1_intro_4 {
         display: flex;
@@ -179,9 +240,33 @@ display: inline-block;
         gap: 40px;
         padding: 50px;
     }
+    
+    .grid_1-1_intro-5 .intro-lottie_3 {
+    margin-top: 30px;
+    }
 
+    .intro-lottie_3 {
+    border: 10px solid #fff;
 
-    /* p {
-        max-width: 1200px;
-    } */
 }
+
+.lottie_sandkasse {
+    border: 10px solid #fff;
+
+}
+
+.lottie_5 {
+    border: 10px solid #fff;
+}
+
+.img_tema {
+    border: 10px solid #fff;
+     max-width: 400px;
+}
+
+.img_tema-border {
+     max-width: 400px;
+}
+
+}
+

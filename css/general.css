@@ -11,6 +11,10 @@ ul,
   box-sizing: border-box;
 }
 
+main {
+  padding-top: 100px; 
+}
+
 body {
   background-color: #292929;
 }

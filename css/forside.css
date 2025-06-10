@@ -8,10 +8,12 @@
   text-align: center;
 }
 
+
+
 .intro-billede img {
     width: 100%;
     max-width: 300px;
-    border: 10px solid #fff;
+    border: 5px solid #fff;
     margin-bottom: 20px;
 }
 
@@ -113,6 +115,10 @@
   .intro-billede {
     order: 1; 
   }
+
+.intro-billede img {
+    border: 10px solid #fff;
+}
 
   .intro-navn {
     text-align: left;
